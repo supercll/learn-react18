@@ -1,14 +1,11 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM, { createRoot } from 'react-dom/client'
 import { render } from 'react-dom'
 
 const root = document.getElementById('root')
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <React.StrictMode>lear-react18</React.StrictMode>,
-// )
+import NewBatchUpdatePage from '../routes/NewBatchUpdatePage'
 
-import OldBatchUpdatePage from '../routes/OldBatchUpdatePage'
+const element = <NewBatchUpdatePage></NewBatchUpdatePage>
 
-const element = <OldBatchUpdatePage></OldBatchUpdatePage>
-render(element, root)
+createRoot(root).render(element)
