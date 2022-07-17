@@ -5,7 +5,8 @@ import { render } from 'react-dom'
 const root = document.getElementById('root')
 
 import NewBatchUpdatePage from '../routes/NewBatchUpdatePage'
+import SuspensePage from '../routes/SuspensePage'
 
-const element = <NewBatchUpdatePage></NewBatchUpdatePage>
+const element = <SuspensePage></SuspensePage>
 
 createRoot(root).render(element)
