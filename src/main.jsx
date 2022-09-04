@@ -10,6 +10,7 @@ import StartTransition from '../routes/StartTransition'
 import UpdatePriorityPage from '../routes/UpdatePriorityPage'
 import UseDeferredValuePage from '../routes/UseDeferredValuePage'
 import UseTransitionPage from '../routes/UseTransitionPage'
+import UseTransitionPage2 from '../routes/UseTransitionPage2'
 import UseId from '../routes/useId'
 
 // const element = <NewBatchUpdatePage></NewBatchUpdatePage>
@@ -18,6 +19,7 @@ import UseId from '../routes/useId'
 // const element = <UpdatePriorityPage></UpdatePriorityPage>
 // const element = <UseDeferredValuePage></UseDeferredValuePage>
 // const element = <UseTransitionPage></UseTransitionPage>
-const element = <UseId></UseId>
+const element = <UseTransitionPage2></UseTransitionPage2>
+// const element = <UseId></UseId>
 
 createRoot(root).render(element)
