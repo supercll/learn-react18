@@ -9,11 +9,13 @@ import SuspensePage from '../routes/SuspensePage'
 import StartTransition from '../routes/StartTransition'
 import UpdatePriorityPage from '../routes/UpdatePriorityPage'
 import UseDeferredValuePage from '../routes/UseDeferredValuePage'
+import UseTransitionPage from '../routes/UseTransitionPage'
 
 // const element = <NewBatchUpdatePage></NewBatchUpdatePage>
 // const element = <SuspensePage></SuspensePage>
 // const element = <StartTransition></StartTransition>
 // const element = <UpdatePriorityPage></UpdatePriorityPage>
-const element = <UseDeferredValuePage></UseDeferredValuePage>
+// const element = <UseDeferredValuePage></UseDeferredValuePage>
+const element = <UseTransitionPage></UseTransitionPage>
 
 createRoot(root).render(element)
